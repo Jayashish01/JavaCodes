@@ -14,7 +14,8 @@ public class BillCalculator{
         System.out.println("Enter the cot of an eraser: ");
         float eraserCost = sc.nextFloat();
 
-        float sum =  pencilCost + penCost + eraserCost;
+        float sum =  pencilCost + penCost + eraserCost; //Jayashish
+        
         float GST = sum + (18*sum)/100;
         System.out.println(sum);
         System.out.println(GST);
